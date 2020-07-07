@@ -4,6 +4,7 @@ module.exports = {
   entry: "./widgets.jsx",
   output: {
       path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
+      publicPath: '/',
       filename: "bundle.js"
   },
   mode: 'development',
